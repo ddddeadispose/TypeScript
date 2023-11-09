@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import container from './container.js';
+import container from './container';
 
 abstract class BooksRepository {
     abstract createBook(book: Record<string, any>): Promise<void>;
